@@ -1,5 +1,7 @@
 # botframework-aws-lambda-slack
-This repo contains code and guidance to deploy Microsoft bot code to AWS Lambda and Integrate with Slack
+This repo contains code and guidance to deploy Microsoft bot code to AWS Lambda and Integrate with Slack.
+
+<img width="945" alt="Screen Shot 2019-05-16 at 2 50 10 PM" src="https://user-images.githubusercontent.com/9275193/57879263-01565b00-77ea-11e9-9d35-0c78654c3e70.png">
 
 I got very excited when I first saw Microsoft Bot Framework (https://dev.botframework.com). Microsoft has done a great job! You can deploy same bot to multiple channels such as MS Team, Slack, Facebook. But all the documents/tutorial I read recommend to deploy bot backend code to Azure. 
 I have been working with AWS for few years but never used Azure before. So was looking for a solution to deploy the nodejs backend
