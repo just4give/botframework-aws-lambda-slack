@@ -5,12 +5,12 @@ This repo contains code and guidance to deploy Microsoft bot code to AWS Lambda 
 
 I got very excited when I first saw Microsoft Bot Framework (https://dev.botframework.com). Microsoft has done a great job! You can deploy same bot to multiple channels such as MS Team, Slack, Facebook. But all the documents/tutorial I read recommend to deploy bot backend code to Azure. 
 I have been working with AWS for few years but never used Azure before. So was looking for a solution to deploy the nodejs backend
-to AWS lambda as I am more comfortable. I still need to create Azure account to create the bot and deploy to channels but that's OK ( who knows in future I may migrate from AWS Lambda to Azure Fuction :) ) 
+to AWS lambda as I am more comfortable. I still need to create Azure account to create the bot and deploy to channels but that's OK ( who knows in future I may migrate from AWS Lambda to Azure Function :) ) 
 
 
 I googled but did not find a solution which just works out of the box. So I decided to poke the framework code a bit and get it deployed to lambda. 
 
-PS: If you know a better and more elegent solution, please let me know.
+PS: If you know a better and more elegant solution, please let me know.
 
 
 I used yoman builder to scaffold the bot framework following this tutorial (https://docs.microsoft.com/en-us/azure/bot-service/javascript/bot-builder-javascript-quickstart?view=azure-bot-service-4.0) 
@@ -29,7 +29,7 @@ Now you are ready to deploy this code to AWS Lambda and create AWS API Gateway t
 <img width="775" alt="Screen Shot 2019-05-15 at 8 55 06 PM" src="https://user-images.githubusercontent.com/9275193/57819989-dc65d780-7758-11e9-8677-b8b765a85c80.png">
 
 
-If you are on the same boat as me and want to give a try, I have created terraform scripts to help you create AWS resoures ( Lambda, Gateway ) and deploy backend code through your terminal without even log into AWS Console. 
+If you are on the same boat as me and want to give a try, I have created terraform scripts to help you create AWS resources ( Lambda, Gateway ) and deploy backend code through your terminal without even log into AWS Console. 
 
 ```
 cd terraform
