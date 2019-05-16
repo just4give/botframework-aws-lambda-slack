@@ -64,3 +64,4 @@ typings/
 ./terraform/terraform.tfstate
 ./terraform/terraform.backup
 
+./mymsbot/.env

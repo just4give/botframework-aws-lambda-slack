@@ -16,8 +16,10 @@
         "url": "https://github.com"
     },
     "dependencies": {
+        "aws-serverless-express": "^3.3.6",
         "botbuilder": "~4.4.0",
         "dotenv": "^7.0.0",
+        "express": "^4.16.4",
         "restify": "~8.2.0"
     },
     "devDependencies": {
